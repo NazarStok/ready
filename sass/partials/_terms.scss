@@ -1,0 +1,171 @@
+.terms {
+    background: rgb(0, 0, 0);
+      .terms_underheader_block {
+
+        background-image: url(../images/termsbackground.svg);
+        
+        max-width: 100%;
+        background-size: cover;
+        background-position: center;
+        // padding-top: 220px;
+        z-index: 1;
+        @media(max-width: 700px) {
+            background: rgb(0, 0, 0);
+        }
+        .social_layoutblock {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 250px 20px 0;
+            display: flex;
+            flex-direction: row;
+
+            @media(max-width: 1000px) {
+                padding: 200px 20px 0;
+            }
+
+            @media(max-width: 880px) {
+                padding: 150px 20px 0;
+            }
+
+            @media(max-width: 580px) {
+                padding: 120px 20px 0;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                width: 1100px;
+                margin: 0 auto;
+                margin-bottom: 80px;
+
+                @media(max-width: 850px) {
+                    margin-bottom: 40px;
+
+                }
+
+                @media(max-width: 650px) {
+                    display: flex;
+                    justify-content: center;
+
+                }
+
+                .main_text {
+
+                    font-family: Montserrat;
+                    font-size: 56px;
+                    font-weight: 700;
+                    line-height: 68.26px;
+                    color: #FFFFFF;
+
+                    @media(max-width: 650px) {
+                        margin-bottom: 30px;
+
+                    }
+
+                    span {
+                        color: #EFF312;
+                    }
+                }
+
+
+
+                .sub_text {
+                    max-width: 530px;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 21.94px;
+                    color: #FFFFFF;
+                    @media(max-width: 650px) {
+            
+                        text-align: center;
+            
+                    }
+                    span {
+                        color: #EFF312;
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 21.94px;
+
+                    }
+                }
+
+            }
+        }
+
+
+     
+
+    }
+    .shadow_blockk{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        @media(max-width: 700px) {
+            display: none;
+        }
+        .shadow_block{
+
+            
+        }
+        .shadow_block2{
+            box-shadow: -200px 5px 400px 99px rgba(121, 39, 255, 0.21);
+            -webkit-box-shadow: -200px 5px 400px 99px rgba(121, 39, 255, 0.21);
+            -moz-box-shadow: -200px 5px 400px 99px rgba(121, 39, 255, 0.21);
+            height: 240px;
+            float: right;
+            margin-top: 3500px;
+            margin-right: -130px;
+        }
+}
+    .shadow_block {
+       @media(max-width: 650px) {
+            
+            text-align: center;
+
+        }
+        .privacypolicy_content_block {
+           
+            margin: 0 auto;
+            max-width: 1110px;
+            padding: 0 10px;
+            @media(max-width: 650px) {
+            
+                text-align: center;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            .main_text {
+                //styleName: Subtitle_5;
+                font-family: Montserrat;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 43.88px;
+                color: #EFF312;
+                margin-bottom: 30px;
+            }
+
+            .sub_main_text {
+                //styleName: Text_2;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21.94px;
+                color: #FFFFFF;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+}
+
+.footer_back{
+    background-image: none;
+    background-color:  #000000;
+    
+}

@@ -1,0 +1,1011 @@
+.exanges_main {
+    font-family: Montserrat;
+    background: rgb(11, 11, 11);
+    box-shadow: -2px 0px 96px 81px rgba(11, 11, 11, 1);
+    -webkit-box-shadow: -2px 0px 96px 81px rgba(11, 11, 11, 1);
+    -moz-box-shadow: -2px 0px 96px 81px rgba(11, 11, 11, 1);
+
+    .exanges_underheader_block {
+        background-image: url(../images/backgraund_main.svg);
+        max-width: 100%;
+        background-size: cover;
+        background-position: center;
+        // padding-top: 220px;
+        z-index: 1;
+
+        .social_layoutblock {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 250px 20px 0;
+            display: flex;
+            flex-direction: row;
+
+            @media(max-width: 1000px) {
+                padding: 200px 20px 0;
+            }
+
+            @media(max-width: 880px) {
+                padding: 150px 20px 0;
+            }
+
+            @media(max-width: 580px) {
+                padding: 120px 20px 0;
+            }
+
+            @media(max-width: 400px) {
+                padding: 120px 5px 0
+            }
+
+            .container {
+
+                width: 1110px;
+                margin: 0 auto;
+                margin-bottom: 150px;
+
+                @media(max-width: 850px) {
+                    margin-bottom: 40px;
+                    padding-left: 0;
+                }
+
+                .undernav {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-start;
+
+                    .buttons-container {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+
+                        h1 {
+                            margin-bottom: 30px;
+                        }
+
+                        .button {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding: 10px 20px;
+                            font-size: 16px;
+                            background: rgba(54, 54, 54, 0.5);
+                            font-family: Montserrat;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 21.94px;
+                            text-align: left;
+                            color: rgba(108, 108, 108, 1);
+                            cursor: pointer;
+                            border: none;
+                            margin-bottom: 2px;
+
+                            span {
+                                margin-right: 10px;
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50%;
+                                background: rgba(58, 58, 58, 1);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: white;
+                                /* Цей колір тексту можна змінити за необхідності */
+                            }
+
+                        }
+
+                        .active {
+                            color: rgba(58, 58, 58, 1);
+                            background: rgba(239, 243, 18, 1);
+
+                            span {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50%;
+                                background: linear-gradient(90.72deg, #7927FF 0%, #8B1EA6 100%);
+
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: white;
+                                /* Цей колір тексту можна змінити за необхідності */
+                            }
+                        }
+
+                        .buttontop {
+                            border-radius: 10px 10px 0 0;
+
+                        }
+
+                        .buttonbottom {
+                            border-radius: 0 0 10px 10px;
+                        }
+                    }
+
+
+
+                    .block {
+                        display: none;
+                        background: rgba(54, 54, 54, 0.804);
+                        border-radius: 5px;
+                        padding: 25px;
+                        .confirmation-button {
+                            margin-top: 10px;
+                        }
+                        max-width: 540px;
+                        border-radius: 10px;
+                    }
+                    .first_block{
+                        .flex_title {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            margin-bottom: 30px;
+
+                            .number_logo {
+                                width: 30px;
+                                height: 30px;
+                                background: #EFF312;
+                                margin-right: 10px;
+
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 90px;
+
+                                p {
+                                    font-family: Montserrat;
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    line-height: 21.94px;
+                                    color: #151515;
+
+                                }
+
+                                
+                            }
+                            .button_text {
+
+                                //styleName: Subtitle 1;
+                                 font-family: Montserrat;
+                                 font-size: 24px;
+                                 font-weight: 700;
+                                 line-height: 29.26px;
+                                 text-align: left;
+
+                                 color: #fff;
+                                 
+
+                             }
+                        }
+
+
+                        .buttons {
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 30px;
+
+                            .button_float {
+                                max-width: 245px;
+                                height: 54px;
+                                background: #363636;
+                                color: #ffffff;
+                                border: 1px 0px 1px 1px;
+                                border-radius: 10px 0px 0px 10px;
+                                border-color: #989898;
+
+                                p {
+                                    padding-left: 92px;
+                                    padding-right: 92px;
+                                    font-family: Montserrat;
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                    line-height: 29.26px;
+                                }
+
+                                &:hover {
+                                    background: #EFF312;
+                                    color: #363636;
+                                    font-family: Montserrat;
+                                    font-size: 24px;
+                                    font-weight: 600;
+                                    line-height: 29.26px;
+
+
+                                }
+
+                            }
+
+                            .button_fixed {
+                                max-width: 245px;
+                                height: 54px;
+                                background: #363636;
+                                color: #ffffff;
+                                border: 1px 1px 0px 1px;
+                                border-radius: 0px 10px 10px 0px;
+                                border-color: #989898;
+
+                                p {
+                                    padding-left: 92px;
+                                    padding-right: 92px;
+                                    font-family: Montserrat;
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                    line-height: 29.26px;
+                                }
+
+                                &:hover {
+                                    background: #EFF312;
+                                    color: #363636;
+                                    font-family: Montserrat;
+                                    font-size: 24px;
+                                    font-weight: 600;
+                                    line-height: 29.26px;
+
+
+                                }
+                            }
+
+                        }
+
+
+                        .yousend_row {
+                            display: flex;
+                            flex-direction: row;
+
+                            input {
+                                width: 345px;
+                                height: 54px;
+                                border-radius: 10px;
+                                background: #444444;
+                                color: #6c6c6c;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 17.07px;
+                                padding-left: 10px;
+                                border: 0px;
+
+                            }
+
+                            .dropdown_button {
+                                display: flex;
+                                flex-direction: row;
+                                width: 140px;
+                                height: 54px;
+                                border-radius: 10px;
+                                background-color: #444444;
+                                margin-left: 5px;
+
+                                .btc_logo {
+                                    width: 30px;
+                                    height: 30px;
+                                    margin-top: 12px;
+                                    margin-left: 15px;
+                                    margin-right: 10px;
+                                }
+
+                                .logo_text {
+                                    font-family: Raleway;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 16.44px;
+                                    color: #ffffff;
+                                    margin-top: 12px;
+
+                                    span {
+                                        font-family: Raleway;
+                                        font-size: 10px;
+                                        font-weight: 600;
+                                        line-height: 11.74px;
+                                        color: #6C6C6C;
+
+                                    }
+
+
+                                }
+
+                                img {
+
+                                    width: 12px;
+                                    height: 6px;
+                                    display: flex;
+                                    justify-content: end;
+                                    margin-left: 30px;
+                                    margin-top: 25px;
+                                }
+                            }
+
+
+                            .get {}
+
+                        }
+                        .yousend_row2 {
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 30px;
+
+                            input {
+                                width: 345px;
+                                height: 54px;
+                                border-radius: 10px;
+                                background: #444444;
+                                color: #6c6c6c;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 17.07px;
+                                padding-left: 10px;
+                                border: 0px;
+
+                            }
+
+                            .dropdown_button {
+                                display: flex;
+                                flex-direction: row;
+                                width: 140px;
+                                height: 54px;
+                                border-radius: 10px;
+                                background-color: #444444;
+                                margin-left: 5px;
+
+                                .btc_logo {
+                                    width: 30px;
+                                    height: 30px;
+                                    margin-top: 12px;
+                                    margin-left: 15px;
+                                    margin-right: 10px;
+                                }
+
+                                .logo_text {
+                                    font-family: Raleway;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 16.44px;
+                                    color: #ffffff;
+                                    margin-top: 12px;
+
+                                    span {
+                                        font-family: Raleway;
+                                        font-size: 10px;
+                                        font-weight: 600;
+                                        line-height: 11.74px;
+                                        color: #6C6C6C;
+
+                                    }
+
+
+                                }
+
+                                img {
+
+                                    width: 12px;
+                                    height: 6px;
+                                    display: flex;
+                                    justify-content: end;
+                                    margin-left: 30px;
+                                    margin-top: 25px;
+                                }
+                            }
+
+
+                            .get {}
+
+                        }
+                        .button_refresh_flex {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: end;
+
+                            .button_refresh {
+                                display: block;
+
+                                background: none;
+                                border: 0px;
+                                margin-right: 15px;
+                                margin-top: 15px;
+                                margin-bottom: 15px;
+                            }
+                        }
+
+                        .email_address {
+                            width: 490px;
+                            height: 54px;
+                            border-radius: 10px;
+                            background: #444444;
+                            color: #6c6c6c;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 17.07px;
+                            padding-left: 10px;
+                            border: 0px;
+                            
+
+                        }
+
+                        .checkbox_text {
+                            margin-top: 30px;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 17.07px;
+                            color: #6c6c6c;
+
+
+
+                            a {
+                                color: #EFF312;
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .create_button {
+                            display: flex;
+                            justify-content: center;
+
+                            button {
+                                width: 388px;
+                                height: 55px;
+                                border-radius: 10px;
+                                margin-top: 50px;
+                                border: 0px;
+                                background: linear-gradient(90.72deg, #7927FF 0%, #8B1EA6 100%);
+                                font-family: Montserrat;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 21.94px;
+                                color: #ffffff;
+
+
+
+                            }
+                        }
+                    }
+                    .second_block{
+                        .slider-container {
+                            max-width: 600px;
+                            margin: 0 auto;
+                            overflow: hidden;
+                            position: relative;
+                            .slides {
+                                display: flex;
+                                transition: transform 0.5s ease;
+                                .slide {
+                                    flex: 0 0 100%;
+                                    max-width: 100%;
+                                    display: none;
+                                  }
+                                  .first_slide{
+                                    .text_block{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        
+                                        .Processing_text{
+                                            display: flex;
+                                            flex-direction: row;
+                                            //styleName: Subtitle 1;
+                                            font-family: Montserrat;
+                                            font-size: 24px;
+                                            font-weight: 700;
+                                            line-height: 29.26px;
+                                            text-align: left;
+                                            color: #fff;
+
+                                            p{
+                                                width: 30px;
+                                                height: 30px;
+                                                background: #EFF312;
+                                                margin-right: 10px;
+                
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border-radius: 90px;
+                                                color: #151515;
+                                            }
+                                           
+                                        }
+                                        .Exchangeid{
+                                            font-family: Montserrat;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            line-height: 17.07px;
+                                            color: #6C6C6C;
+                                            span{
+                                                color: #EFF312;
+                                            }
+                                        }
+                                    }
+                                    .main_text{
+                                        //styleName: Subtitle_5;
+                                        font-family: Montserrat;
+                                        font-size: 36px;
+                                        font-weight: 700;
+                                        line-height: 43.88px;
+                                        text-align: center;
+                                        color: #fff;
+                                        margin-top: 30px;
+                                    }
+                                    .under_maintext{
+                                        font-family: Montserrat;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        line-height: 17.07px;
+                                        text-align: center;
+                                        color: #6C6C6C;
+                                        margin-top: 15px;
+                                    }
+                                    .waiting_time{
+                                        font-family: Montserrat;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        line-height: 17.07px;
+                                        color: #7927FF;
+                                        margin: 0 auto;
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-top: 15px;
+                                    }
+                                    input{
+                                    width: 100%;    
+                                    height: 60px;
+                                    margin-top: 30px; 
+                                    background: #444444;
+
+                                    }
+                                    .qr{
+                                        display: flex;
+                                        margin: 35px auto 0;
+                                        
+                                    }
+                                  }
+                                  .second_slide{
+                                    .text_block{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        
+                                        .Processing_text{
+                                            display: flex;
+                                            flex-direction: row;
+                                            //styleName: Subtitle 1;
+                                            font-family: Montserrat;
+                                            font-size: 24px;
+                                            font-weight: 700;
+                                            line-height: 29.26px;
+                                            text-align: left;
+                                            color: #fff;
+
+                                            p{
+                                                width: 30px;
+                                                height: 30px;
+                                                background: #EFF312;
+                                                margin-right: 10px;
+                
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border-radius: 90px;
+                                                color: #151515;
+                                            }
+                                           
+                                        }
+                                        .Exchangeid{
+                                            font-family: Montserrat;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            line-height: 17.07px;
+                                            color: #6C6C6C;
+                                            span{
+                                                color: #EFF312;
+                                            }
+                                        }
+                                    }
+                                    .main_text{
+                                        //styleName: Subtitle_5;
+                                        font-family: Montserrat;
+                                        font-size: 36px;
+                                        font-weight: 700;
+                                        line-height: 43.88px;
+                                        text-align: center;
+                                        color: #fff;
+                                        margin-top: 30px;
+                                    }
+                                    .under_maintext{
+                                        font-family: Montserrat;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        line-height: 17.07px;
+                                        text-align: center;
+                                        color: #6C6C6C;
+                                        margin-top: 15px;
+                                    }
+                                  }
+                                  .third_slide{
+                                    .text_block{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        
+                                        .Processing_text{
+                                            display: flex;
+                                            flex-direction: row;
+                                            //styleName: Subtitle 1;
+                                            font-family: Montserrat;
+                                            font-size: 24px;
+                                            font-weight: 700;
+                                            line-height: 29.26px;
+                                            text-align: left;
+                                            color: #fff;
+
+                                            p{
+                                                width: 30px;
+                                                height: 30px;
+                                                background: #EFF312;
+                                                margin-right: 10px;
+                
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border-radius: 90px;
+                                                color: #151515;
+                                            }
+                                           
+                                        }
+                                        .Exchangeid{
+                                            font-family: Montserrat;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            line-height: 17.07px;
+                                            color: #6C6C6C;
+                                            span{
+                                                color: #EFF312;
+                                            }
+                                        }
+                                    }
+                                    .main_text{
+                                        //styleName: Subtitle_5;
+                                        font-family: Montserrat;
+                                        font-size: 36px;
+                                        font-weight: 700;
+                                        line-height: 43.88px;
+                                        text-align: center;
+                                        color: #fff;
+                                        margin-top: 30px;
+                                    }
+                                    .under_maintext{
+                                        font-family: Montserrat;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        line-height: 17.07px;
+                                        text-align: center;
+                                        color: #6C6C6C;
+                                        margin-top: 15px;
+                                    }
+                                  }
+                                  .forth_slide{
+                                    .text_block{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        
+                                        .Processing_text{
+                                            display: flex;
+                                            flex-direction: row;
+                                            //styleName: Subtitle 1;
+                                            font-family: Montserrat;
+                                            font-size: 24px;
+                                            font-weight: 700;
+                                            line-height: 29.26px;
+                                            text-align: left;
+                                            color: #fff;
+
+                                            p{
+                                                width: 30px;
+                                                height: 30px;
+                                                background: #EFF312;
+                                                margin-right: 10px;
+                
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border-radius: 90px;
+                                                color: #151515;
+                                            }
+                                           
+                                        }
+                                        .Exchangeid{
+                                            font-family: Montserrat;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            line-height: 17.07px;
+                                            color: #6C6C6C;
+                                            span{
+                                                color: #EFF312;
+                                            }
+                                        }
+                                    }
+                                    .main_text{
+                                        //styleName: Subtitle_5;
+                                        font-family: Montserrat;
+                                        font-size: 36px;
+                                        font-weight: 700;
+                                        line-height: 43.88px;
+                                        text-align: center;
+                                        color: #fff;
+                                        margin-top: 30px;
+                                    }
+                                    .under_maintext{
+                                        font-family: Montserrat;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        line-height: 17.07px;
+                                        text-align: center;
+                                        color: #6C6C6C;
+                                        margin-top: 15px;
+                                    }
+                                    .confirmation-button{
+                                        background: linear-gradient(90.72deg, #7927FF 0%, #8B1EA6 100%);
+                                        font-family: Montserrat;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        line-height: 17.07px;
+                                        text-align: center;
+                                        color: #fff;    
+                                        border: 0;      
+                                        border-radius: 3px;
+                                        padding: 5px;                              
+                                    }
+                                  }
+                              }
+                          }
+                          
+                          
+                          .buttons {
+                            text-align: center;
+                            margin-top: 40px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            
+                          }
+                          .first_button{
+                            border-radius: 10px 0 0 10px;
+                            }
+                            .last_button{
+                                border-radius: 0 10px 10px 0;
+                            }
+                          .buttons button {
+                            margin: 0 1px;
+                            padding: 10px 20px;
+                            background-color: #B6B6B6; /* синій колір для неактивних кнопок */
+                            color: #fff;
+                            border: none;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-around;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 17.07px;
+                            text-align: center;
+                            color:  #6C6C6C;
+                            max-width: 120px;
+                            cursor: pointer;
+                            
+                            .notshow{
+                                display: block;
+                            }
+                            .activee{
+                                display: none;
+                            }
+                            .shownn{
+                                display: none;
+                            }
+                          }
+                          .buttons button.active {
+                            color:  #3A3A3A;
+                            background: linear-gradient(114.84deg, #EFF312 9.82%, #FFFFFF 119.6%);
+                            .activee{
+                                display: block;
+                            }
+                            .notshow{
+                                display: none;
+                            }
+                            .shownn{
+                                display: none;
+                            }
+                          }
+                          .buttons button.shown {
+                            color:  #fff;
+                            background-color: #27AE60; /* зелений колір для показаних, але не активних кнопок */
+                            .shownn{
+                                display: block;
+                            }
+                            .notshow{
+                                display: none;
+                            }
+                            .activee{
+                                display: none;
+                            }
+                          }
+                    }
+                    .third_block{
+                        .text_block{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            
+                            .Processing_text{
+                                display: flex;
+                                flex-direction: row;
+                                //styleName: Subtitle 1;
+                                font-family: Montserrat;
+                                font-size: 24px;
+                                font-weight: 700;
+                                line-height: 29.26px;
+                                text-align: left;
+                                color: #fff;
+
+                                p{
+                                    width: 30px;
+                                    height: 30px;
+                                    background: #EFF312;
+                                    margin-right: 10px;
+    
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border-radius: 90px;
+                                    color: #151515;
+                                }
+                               
+                            }
+                            .Exchangeid{
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 17.07px;
+                                color: #6C6C6C;
+                                span{
+                                    color: #EFF312;
+                                }
+                            }
+                        }
+                        .main_text{
+                            //styleName: Subtitle_5;
+                            font-family: Montserrat;
+                            font-size: 36px;
+                            font-weight: 700;
+                            line-height: 43.88px;
+                            text-align: center;
+                            color: #fff;
+                            margin-top: 30px;
+                        }
+                        .date_block{
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 17.07px;
+                            text-align: center;
+                            color: #6C6C6C;
+                            margin: 0 auto;
+                            margin-top: 30px;
+                            span{
+                                color: #fff;
+                            }
+                        }
+                        .under_maintext{
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 17.07px;
+                            text-align: center;
+                            color: #6C6C6C;
+                            margin-top: 30px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            span{
+                                margin: 0 5px;
+                                color: #EFF312;
+                            }
+                        }
+                        .flex_block{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            .okeybigicon{
+                                margin-top: 30px;
+                            }
+                            .Swapmore{
+                                background: linear-gradient(90.72deg, #7927FF 0%, #8B1EA6 100%);
+                                padding: 15px 150px;
+                                font-family: Montserrat;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 21.94px;
+                                text-align: center;
+                                color: #fff;
+                                margin-top: 30px;
+                                border-radius: 10px;
+                            }
+                        }
+                        
+                    }
+
+                }
+
+
+                .icon_4mobile {
+                    display: none;
+                    margin: 0 auto;
+                    max-width: 1074px;
+                    justify-content: flex-end;
+                    padding: 0 100px;
+
+                    @media(max-width: 1074px) {
+                        display: flex;
+                    }
+
+                    @media(max-width: 560px) {
+                        padding: 0 15px;
+                    }
+                }
+            }
+
+            .undernav_sosial {
+                display: flex;
+                flex-direction: column;
+                margin: -20px 0 90px 0;
+                width: 84px;
+                z-index: 100;
+
+                @media(max-width: 1200px) {
+                    margin: -10px -30px 72px 50px;
+                }
+
+                @media(max-width: 880px) {
+                    display: none;
+                }
+
+                a {
+                    margin: 16px 10px;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .undernav_photo_block {
+        display: flex;
+        justify-content: end;
+        margin-top:-50px;
+        margin-right:-50px;
+        @media(max-width: 1074px) {
+            display: none;
+        }
+    }
+}
+.exanges_footer{
+    background-image: url(../images/exchange_fon.svg);
+}
